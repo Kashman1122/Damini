@@ -1,1 +1,5 @@
 E:/Dataset_provider.zip filter=lfs diff=lfs merge=lfs -text
+D:/pycharm2/Dataset_provider filter=lfs diff=lfs merge=lfs -text
+C:/Users/ACER/Dataset_provider filter=lfs diff=lfs merge=lfs -text
+C:/Users/ACER/Linqifyp filter=lfs diff=lfs merge=lfs -text
+C:/Users/ACER/Linqify filter=lfs diff=lfs merge=lfs -text
