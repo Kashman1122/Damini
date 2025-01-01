@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "damini/main.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "damini/main.py"
+    }
+  ],
+  "env": {
+    "PYTHON_PATH": ".venv/Scripts/python"
+  },
+  "buildCommand": "if [ -d .venv ]; then . .venv/Scripts/activate; fi"
+}
