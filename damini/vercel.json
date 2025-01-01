@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "damini/main.py",
+      "src": "damini/index.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "damini/main.py"
+      "dest": "damini/index.py"
     }
   ],
   "env": {
